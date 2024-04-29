@@ -1,3 +1,11 @@
+---
+title: "Neovim で Docker コンテナ内の Language Server にアクセスする"
+emoji: "⚙️"
+type: "tech"
+topics: ["neovim", "docker", "lsp", "language server"]
+published: true
+---
+
 # 概要
 ### 対象とする読者
 - ローカル環境を汚したくない潔癖プログラマ
