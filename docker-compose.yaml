@@ -1,0 +1,7 @@
+services:
+  zenn-cli:
+    image: motomotomato/zenn-cli
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/zenn
