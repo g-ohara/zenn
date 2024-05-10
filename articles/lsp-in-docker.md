@@ -83,14 +83,16 @@ int main() {
 
 ```yaml:docker-compose.yml
 services:
-  gcc:
+  clangd:
     image: lspcontainers/clangd
     container_name: {レポジトリ名}
     volumes:
-      - ./:/usr/src/myapp
-    working_dir: /usr/src/myapp
+      - ./:${PWD}
+    working_dir: ${PWD}
     tty: true
 ```
+
+`working_dir` を `${PWD}` とし，そこにカレントディレクトリをマウントするのがポイントです．ファイルのパスがホスト側での絶対パスとして Language Server に渡されるので，対象ファイルへのパスをホスト側とコンテナ側で一致させておく必要があります．
 
 ```docker compose up -d``` を実行したあとに Neovim で ```hello-world.cc``` を開くと， Builtin LSP の機能が使用できるはずです．もしステータスラインに ```Client 1 quit with exit code 1 and signal 0``` などと表示された場合は，
 - Neovim が探しているコンテナ名と実際のコンテナ名が一致していない
