@@ -2,7 +2,7 @@
 title: "Neovim で Docker コンテナ内の Language Server にアクセスする"
 emoji: "⚙️"
 type: "tech"
-topics: ["neovim", "docker", "lsp", "language server"]
+topics: ["neovim", "docker", "lsp", "languageserver"]
 published: true
 ---
 
