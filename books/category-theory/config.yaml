@@ -1,0 +1,12 @@
+title: "圏論ノート"
+summary: "圏論ノート"
+topics: ["category", "haskell", "mathematics"]
+published: false
+price: 0
+chapters:
+  - categories
+  - abstract-structures
+  - limits-and-colimits
+  - exponentials
+  - adjoints
+  - monads-and-algebras
