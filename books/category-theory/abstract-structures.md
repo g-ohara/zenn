@@ -21,8 +21,6 @@ title: 抽象構造
 
 ## 終対象と始対象
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8555476-16af-4c38-9dc1-3d664a66589f/fe28fe27-44a1-4cf3-bf33-6147f8f76891/f78ed2fe-e220-48b0-824e-5ea9a074118a.png)
-
 - **終対象 (terminal object)**
     - $\forall{X}\exists!f;\ f:X\to T$
     - 順序集合における最大の一般化
@@ -44,9 +42,6 @@ title: 抽象構造
 ## 積と余積
 
 - 3つ組 $\langle P,p,q\rangle$ が $X$ と $Y$ の **積 (product)** である $\iff$任意の3つ組 $\langle A,f,g\rangle$ に対して上の図式を可換にする射 $h:A\to P$ がただ一つ存在する
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8555476-16af-4c38-9dc1-3d664a66589f/4a54b4cd-c9c1-4c55-9182-2fdfbe2aa98d/image.png)
-    
     - $P=X\times Y,\ h=f\times g$ と表記し、$p$ と $q$ を **射影 (projection)** という
 - **余積 (coproduct)** は積の双対概念 (双対圏における積)
     - $P=X+Y,\ h=f+g$ と表記し、$p$ と $q$ を **入射 (injection)** という
@@ -60,8 +55,6 @@ title: 抽象構造
     | 余積 | 非交和 |  | 上限 |
 
 ## 積関手
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8555476-16af-4c38-9dc1-3d664a66589f/38a0f42b-7dcc-488c-b553-646a14b5da0a/image.png)
 
 - **積関手 (product functor)** $F_A$ :「$A$ との積をつくる」という自己関手
 - 対象 $X$ に射影 $p_X:A\times X\to X$ を対応させる変換 $p$ は、$F_A$ から恒等関手への自然変換になる
@@ -81,9 +74,6 @@ title: 抽象構造
     - 対象 $E$ と射 $eq:E\to X$ の組 $\langle E,eq\rangle$
         - $f\circ eq=g\circ eq$
         - 上の条件を満たす任意の組 $\langle O,m\rangle$ について、次の図式を可換にする $u:O\to E$ がただ一つ存在する:
-            
-            ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8555476-16af-4c38-9dc1-3d664a66589f/b099bed8-f04d-48bf-8758-b0bf106f6ed9/image.png)
-            
     - 「方程式の解全体」の一般化
         - 具体例
             - $f(x)=x^2+4,\ g(x)=5x$
@@ -91,9 +81,6 @@ title: 抽象構造
             - $X=\{1\},\ m:x\mapsto x$
 - 射 $f:X\to Y,\ g:X\to Y$ の **余等化子 (coequalizer)**
     - 等化子の双対概念
-        
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8555476-16af-4c38-9dc1-3d664a66589f/baf48d5e-4382-4b8f-875e-3474c4de14e7/image.png)
-        
     - 「同値関係」の一般化
         - 具体例
             - $f(x)=x,\ g(x)=x+4$
@@ -101,4 +88,3 @@ title: 抽象構造
             - $Q'=\{0,1\},\ q':y\mapsto y\operatorname{mod}2$
 
 ## 引き戻しと押し出し
-

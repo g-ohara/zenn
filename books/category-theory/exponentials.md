@@ -7,9 +7,6 @@ title: 冪
 - **冪 (exponential)**
     - 「写像全体の集合」の一般化
     - $A$ から $B$ への冪 $B^A$ : コンマ圏 $(A\times()\to B)$ の終対象
-        
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8555476-16af-4c38-9dc1-3d664a66589f/18f31529-95aa-4f95-94f8-7894fb645c03/image.png)
-        
         - **カリー化 (currying)** : 多変数関数から一変数関数へ
         - **アンカリー化 (uncurrying)** : 一変数関数から多変数関数へ
     - 集合 $A$ の部分集合は、$A$ から集合 $2$ (2個の要素をもつ集合) への写像と同一視できる
