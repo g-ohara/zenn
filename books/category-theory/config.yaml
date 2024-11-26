@@ -1,12 +1,9 @@
 title: "圏論ノート"
-summary: "圏論ノート"
+summary: "圏論について勉強した内容をまとめる"
 topics: ["category", "haskell", "mathematics"]
-published: false
+published: true
 price: 0
-chapters:
-  - categories
-  - abstract-structures
-  - limits-and-colimits
-  - exponentials
-  - adjoints
-  - monads-and-algebras
+
+# if the value for `chapters` set to empty,
+# only the files named "{number}.{slug}.md" will be included in the book.
+# https://zenn.dev/zenn/articles/zenn-cli-guide
